@@ -15,7 +15,8 @@ So far, we have learned basic machine learning pipelines including data ingestio
   ![Screenshot](img3.png)
 4.	Then San Francisco housing data is extracted from the above data frame and convert index into datetime format. 
   ![Screenshot](img4.png)
-5.	Before fitting data into the ARIMA model, the autocorrelation is accessed to ensure the auto correlation diminished over time.After that, the optimum parameter is tested and determined for the ARIMA. The result is preferable. The 60 months of outcomes are predicted:![Screenshot](img5.png) ![Screenshot](img6.png)
+5.	Before fitting data into the ARIMA model, the autocorrelation is accessed to ensure the auto correlation diminished over time.After that, the optimum parameter is tested and determined for the ARIMA. The result is preferable. The 60 months of outcomes are predicted:
+![Screenshot](img6.png) ![Screenshot](img5.png)
 6.	Besides of ARIMA, Lasso regression is performed to represent models from traditional modeling methods. The data fed into the Lasso regression is the shape of original data where indexes are cities and columns are dates. As shown on the right, one month of housing price is predicted and the result is preferable with R^2 of 0.998
   ![Screenshot](img7.png)
 
