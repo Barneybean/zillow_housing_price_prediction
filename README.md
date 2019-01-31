@@ -9,15 +9,17 @@ So far, we have learned basic machine learning pipelines including data ingestio
 
 # Techniques and Procedure
 1.	The data is ingested to the Colab notebook and EDA is performed by the instructor. Therefore, I have an overall understanding of how the housing market performs in the past two decades. The overall trend of median price in most of the major cities are trending up while median housing price in the U.S. are stable over the years.
-  ->![Screenshot](img1.png)<- 
-  ->![Screenshot](img2.png)<-
+  ![Screenshot](img1.png)
+  ![Screenshot](img2.png)
 2.	Since the data is well illustrated in sequence with time label. The ARIMA is used to fit the model.
 3.	First of all, I transposed the table into data frame as such: 
   ![Screenshot](img3.png)
 4.	Then San Francisco housing data is extracted from the above data frame and convert index into datetime format. 
   ![Screenshot](img4.png)
 5.	Before fitting data into the ARIMA model, the autocorrelation is accessed to ensure the auto correlation diminished over time.After that, the optimum parameter is tested and determined for the ARIMA. The result is preferable. The 60 months of outcomes are predicted:
+
 ![Screenshot](img6.png) ![Screenshot](img5.png)
+
 6.	Besides of ARIMA, Lasso regression is performed to represent models from traditional modeling methods. The data fed into the Lasso regression is the shape of original data where indexes are cities and columns are dates. As shown on the right, one month of housing price is predicted and the result is preferable with R^2 of 0.998
   ![Screenshot](img7.png)
 
