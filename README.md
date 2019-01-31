@@ -9,7 +9,8 @@ So far, we have learned basic machine learning pipelines including data ingestio
 
 # Techniques and Procedure
 1.	The data is ingested to the Colab notebook and EDA is performed by the instructor. Therefore, I have an overall understanding of how the housing market performs in the past two decades. The overall trend of median price in most of the major cities are trending up while median housing price in the U.S. are stable over the years.
-  ![Screenshot](img1.png) ![Screenshot](img2.png)
+  ->![Screenshot](img1.png)<- 
+  ->![Screenshot](img2.png)<-
 2.	Since the data is well illustrated in sequence with time label. The ARIMA is used to fit the model.
 3.	First of all, I transposed the table into data frame as such: 
   ![Screenshot](img3.png)
